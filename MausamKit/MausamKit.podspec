@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MausamKit"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "MausamKit allow you to integrate weather API in your app."
   spec.description  = "We'll add the description in subsequent versions. We are using weather api to ease the integration of free services. "
 
@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   
   spec.source       = { :git => "https://github.com/anuragiosdev/MausamKit.git", :tag => spec.version.to_s }
 
-  spec.source_files  = "**/*.{h,m}"
+  spec.source_files  = "MausamKit/**/*.{h,m}"
 
 #  spec.public_header_files = "MausamKit/Service/*.h"
 

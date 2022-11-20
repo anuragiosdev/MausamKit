@@ -2,15 +2,15 @@ PODS:
   - MausamKit (1.0.2)
 
 DEPENDENCIES:
-  - MausamKit (from `../MausamKit/`)
+  - MausamKit (= 1.0.2)
 
-EXTERNAL SOURCES:
-  MausamKit:
-    :path: "../MausamKit/"
+SPEC REPOS:
+  trunk:
+    - MausamKit
 
 SPEC CHECKSUMS:
   MausamKit: 06f0bfa07c3956fc6ae7c380b8c9793c17f8b343
 
-PODFILE CHECKSUM: d7517ee4ae97327361f24a9bf57d02402f344eb0
+PODFILE CHECKSUM: 261baadd37df3af3bd6f3c75aea1baceaa2d9bae
 
 COCOAPODS: 1.11.3

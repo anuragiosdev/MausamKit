@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2899976DF602C70DED0091DD4481ACE1 /* WeatherService.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B58EABB77140A7EE1C730D4597B2AD /* WeatherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1982CE4487D03B6A423F15A032214650 /* WeatherProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9EFCF80D5246E499DAB7C07EAC9484 /* WeatherProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E68E6BA8563694CA56617D8343AA538 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		414D3BE1A4F5638B913AD859B6B52203 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4949EC18674B598C382702299E8F7474 /* WeatherData.m */; };
-		684F2A84F9236F42B47C1E08F349D136 /* WeatherProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 17500AEA4BCF767FB8AF59957ED18C7E /* WeatherProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		438B66E0ED4FC078323C471B847F3246 /* WeatherService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F30DCA6436E1EBE335797F36C16C2C2 /* WeatherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69705C9B4E737EFE9A1CE354B0BF3A3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6E6150B75BDE6EA5F8A92877CC2BFE59 /* MausamKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E57818E7C2CC073D66609A3ACED968 /* MausamKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88DB8CA4A4B791C908B8F6A99DFE274E /* WeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B15809DC6CF9D4AA8D03831F886B8 /* WeatherService.m */; };
+		7570124473B5FDB64A6D61358CDA1B81 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = 791173C85288B4342CCD3B83E0DD155C /* WeatherData.m */; };
+		7BDC5637460F338BADA58B9133C50696 /* MausamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 818BA9967E7075834B8ADBC9B44DC97E /* MausamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C2C998E5D471000F99854C0EAFBD090 /* Pods-MainApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE00E6E6760794EE64A3F4DD742FF41 /* Pods-MainApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		979318F374C08ECBE63700581575B267 /* Pods-MainApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF03491172A92D5B05C8C85CBC73346 /* Pods-MainApp-dummy.m */; };
-		A71D75446DE50045D962B482F8D5E9D9 /* WeatherDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D2F036A74F51A3D96021DDB2CE6A8A8 /* WeatherDetail.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D44BB31EC996970F3628870AF5C200A9 /* MausamKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B950CA04A6416974A82B997B9118852 /* MausamKit-dummy.m */; };
-		F07420C7C1C933A3B859F86C732E8775 /* MausamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FCAF74935C0F66671F023C5210409C /* MausamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F61F2717C368B522C34DF20B5A5699BD /* WeatherData.h in Headers */ = {isa = PBXBuildFile; fileRef = 458576BB4582EDFCD827DC9D61F603BF /* WeatherData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C47A660BC0C771AB29326BAF8B70A797 /* MausamKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4BDF64927F3D694DDED1C8A4891CA1F /* MausamKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBDA0F4840F67E26633ADE4787E51C8F /* WeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 237A4AB981E9566E744E28D3C746970B /* WeatherService.m */; };
+		E2BDDEB5673CD511FFF806DDA42ECC6F /* WeatherData.h in Headers */ = {isa = PBXBuildFile; fileRef = 0260C58F5E02C6091DC1BEE6DF08B208 /* WeatherData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F42B223C002628265C10A8EF7785F47B /* WeatherDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = F1BD350F4D6DE2581FAD368A66CD35EA /* WeatherDetail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB15E59866212401036C2891D489497B /* MausamKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CC80CAAE4FF80F7E7F30F6B229F11E /* MausamKit-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		089CF1A0165E824B397972155AD1D858 /* PBXContainerItemProxy */ = {
+		2B27E0F4FCF8A1BFFD57FC63420B954D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -33,34 +33,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0260C58F5E02C6091DC1BEE6DF08B208 /* WeatherData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeatherData.h; path = MausamKit/MausamKit/Model/WeatherData.h; sourceTree = "<group>"; };
 		053A33BDCEE6A67A4A8C914A817A46AE /* Pods-MainApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MainApp"; path = Pods_MainApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		05C065E9C1A36775E0BF107A38B218C9 /* MausamKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MausamKit.modulemap; sourceTree = "<group>"; };
-		075B15809DC6CF9D4AA8D03831F886B8 /* WeatherService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WeatherService.m; sourceTree = "<group>"; };
-		17500AEA4BCF767FB8AF59957ED18C7E /* WeatherProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeatherProtocol.h; sourceTree = "<group>"; };
 		1E2E6CDD4A02A201E0BE1A704A623D20 /* Pods-MainApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainApp-Info.plist"; sourceTree = "<group>"; };
-		2B950CA04A6416974A82B997B9118852 /* MausamKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MausamKit-dummy.m"; sourceTree = "<group>"; };
-		2D2F036A74F51A3D96021DDB2CE6A8A8 /* WeatherDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeatherDetail.h; sourceTree = "<group>"; };
-		37E57818E7C2CC073D66609A3ACED968 /* MausamKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MausamKit-umbrella.h"; sourceTree = "<group>"; };
-		392C4B85E76E4ABDAFD854A6CE35B0DA /* MausamKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MausamKit.release.xcconfig; sourceTree = "<group>"; };
+		237A4AB981E9566E744E28D3C746970B /* WeatherService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WeatherService.m; path = MausamKit/MausamKit/Service/WeatherService.m; sourceTree = "<group>"; };
+		24EDE967FBCD8FD5ED3B0A3D7BC07815 /* MausamKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MausamKit.modulemap; sourceTree = "<group>"; };
+		2F38B2C89636B3FB7207C90B3580DBDD /* MausamKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MausamKit-prefix.pch"; sourceTree = "<group>"; };
 		3AF826F5C2D8D2C5F72AEBDBE7E13BE1 /* Pods-MainApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MainApp.modulemap"; sourceTree = "<group>"; };
 		4133D18357374AB71AA6E7C83EB96D1E /* Pods-MainApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MainApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		458576BB4582EDFCD827DC9D61F603BF /* WeatherData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeatherData.h; sourceTree = "<group>"; };
-		48B58EABB77140A7EE1C730D4597B2AD /* WeatherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WeatherService.h; sourceTree = "<group>"; };
-		4949EC18674B598C382702299E8F7474 /* WeatherData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WeatherData.m; sourceTree = "<group>"; };
 		4E2B9B6049455F684795537D1AE7BD68 /* Pods-MainApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		57810C287CF51B2B460FB150D6374430 /* Pods-MainApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainApp.debug.xcconfig"; sourceTree = "<group>"; };
-		5F7277193D7E97419FE5F0E7FA20037D /* MausamKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MausamKit-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		791173C85288B4342CCD3B83E0DD155C /* WeatherData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WeatherData.m; path = MausamKit/MausamKit/Model/WeatherData.m; sourceTree = "<group>"; };
 		7CF03491172A92D5B05C8C85CBC73346 /* Pods-MainApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MainApp-dummy.m"; sourceTree = "<group>"; };
+		818BA9967E7075834B8ADBC9B44DC97E /* MausamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MausamKit.h; path = MausamKit/MausamKit/MausamKit.h; sourceTree = "<group>"; };
+		92CC80CAAE4FF80F7E7F30F6B229F11E /* MausamKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MausamKit-dummy.m"; sourceTree = "<group>"; };
 		945D31F6E797242E523542D42B842DF4 /* Pods-MainApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MainApp-frameworks.sh"; sourceTree = "<group>"; };
-		98CAE819A9B061BE52079249B04E26AA /* MausamKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MausamKit-prefix.pch"; sourceTree = "<group>"; };
 		9AE00E6E6760794EE64A3F4DD742FF41 /* Pods-MainApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MainApp-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B7FCAF74935C0F66671F023C5210409C /* MausamKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MausamKit.h; path = MausamKit/MausamKit.h; sourceTree = "<group>"; };
+		9F30DCA6436E1EBE335797F36C16C2C2 /* WeatherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeatherService.h; path = MausamKit/MausamKit/Service/WeatherService.h; sourceTree = "<group>"; };
+		B0A6B302AD94F5F75B92F0798F3B120D /* MausamKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MausamKit.debug.xcconfig; sourceTree = "<group>"; };
+		B4F20E3D401BAF1B3F4FACFB795A3E64 /* MausamKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MausamKit.release.xcconfig; sourceTree = "<group>"; };
+		C639B3147F1D8BA4D6F1D47BFDBE7FE5 /* MausamKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MausamKit-Info.plist"; sourceTree = "<group>"; };
 		C6E7841C11DAD50E68E54108E3C82936 /* MausamKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MausamKit; path = MausamKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8808B1404E37AEC3E277B572F4D1768 /* Pods-MainApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainApp.release.xcconfig"; sourceTree = "<group>"; };
-		D8DA9952DDDAE31E44054E0B3C4917EA /* MausamKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MausamKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E9E9CAE050C28B4F14A59E4AD52CC071 /* MausamKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MausamKit.debug.xcconfig; sourceTree = "<group>"; };
+		EA9EFCF80D5246E499DAB7C07EAC9484 /* WeatherProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeatherProtocol.h; path = MausamKit/MausamKit/Protocol/WeatherProtocol.h; sourceTree = "<group>"; };
+		F1BD350F4D6DE2581FAD368A66CD35EA /* WeatherDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeatherDetail.h; path = MausamKit/MausamKit/Protocol/WeatherDetail.h; sourceTree = "<group>"; };
+		F4BDF64927F3D694DDED1C8A4891CA1F /* MausamKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MausamKit-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,45 +82,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0023606F596C161B9366A945067F7F8A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				05C065E9C1A36775E0BF107A38B218C9 /* MausamKit.modulemap */,
-				2B950CA04A6416974A82B997B9118852 /* MausamKit-dummy.m */,
-				5F7277193D7E97419FE5F0E7FA20037D /* MausamKit-Info.plist */,
-				98CAE819A9B061BE52079249B04E26AA /* MausamKit-prefix.pch */,
-				37E57818E7C2CC073D66609A3ACED968 /* MausamKit-umbrella.h */,
-				E9E9CAE050C28B4F14A59E4AD52CC071 /* MausamKit.debug.xcconfig */,
-				392C4B85E76E4ABDAFD854A6CE35B0DA /* MausamKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../MainApp/Pods/Target Support Files/MausamKit";
-			sourceTree = "<group>";
-		};
-		0C92FC1EED36C43543472F8A35E1A1E0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D8DA9952DDDAE31E44054E0B3C4917EA /* MausamKit.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		1BD13480BEEF33763EB65450D8AC2AB0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				CECA4DC06DF1A157F777F0E177FDF239 /* Pods-MainApp */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		2D97448C7B658FB46A1BC74720CA2884 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				458576BB4582EDFCD827DC9D61F603BF /* WeatherData.h */,
-				4949EC18674B598C382702299E8F7474 /* WeatherData.m */,
-			);
-			name = Model;
-			path = MausamKit/Model;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -132,46 +98,35 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7CD33016A4B51F2AABDEE75FBFE1EC2D /* Protocol */ = {
+		A58C56FCD45A3693C932BED1A3461231 /* MausamKit */ = {
 			isa = PBXGroup;
 			children = (
-				2D2F036A74F51A3D96021DDB2CE6A8A8 /* WeatherDetail.h */,
-				17500AEA4BCF767FB8AF59957ED18C7E /* WeatherProtocol.h */,
-			);
-			name = Protocol;
-			path = MausamKit/Protocol;
-			sourceTree = "<group>";
-		};
-		7CD533EEF33E448AFBEA5341F2E71E51 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9356263387A4AAD15C03B1008BFB6CFD /* MausamKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9356263387A4AAD15C03B1008BFB6CFD /* MausamKit */ = {
-			isa = PBXGroup;
-			children = (
-				B7FCAF74935C0F66671F023C5210409C /* MausamKit.h */,
-				2D97448C7B658FB46A1BC74720CA2884 /* Model */,
-				0C92FC1EED36C43543472F8A35E1A1E0 /* Pod */,
-				7CD33016A4B51F2AABDEE75FBFE1EC2D /* Protocol */,
-				B72CFF2E1C3B354419C3B845F6E2C7D0 /* Service */,
-				0023606F596C161B9366A945067F7F8A /* Support Files */,
+				818BA9967E7075834B8ADBC9B44DC97E /* MausamKit.h */,
+				0260C58F5E02C6091DC1BEE6DF08B208 /* WeatherData.h */,
+				791173C85288B4342CCD3B83E0DD155C /* WeatherData.m */,
+				F1BD350F4D6DE2581FAD368A66CD35EA /* WeatherDetail.h */,
+				EA9EFCF80D5246E499DAB7C07EAC9484 /* WeatherProtocol.h */,
+				9F30DCA6436E1EBE335797F36C16C2C2 /* WeatherService.h */,
+				237A4AB981E9566E744E28D3C746970B /* WeatherService.m */,
+				CD497A6BDD35FA63F8C4E3E411052CC8 /* Support Files */,
 			);
 			name = MausamKit;
-			path = ../../MausamKit;
+			path = MausamKit;
 			sourceTree = "<group>";
 		};
-		B72CFF2E1C3B354419C3B845F6E2C7D0 /* Service */ = {
+		CD497A6BDD35FA63F8C4E3E411052CC8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				48B58EABB77140A7EE1C730D4597B2AD /* WeatherService.h */,
-				075B15809DC6CF9D4AA8D03831F886B8 /* WeatherService.m */,
+				24EDE967FBCD8FD5ED3B0A3D7BC07815 /* MausamKit.modulemap */,
+				92CC80CAAE4FF80F7E7F30F6B229F11E /* MausamKit-dummy.m */,
+				C639B3147F1D8BA4D6F1D47BFDBE7FE5 /* MausamKit-Info.plist */,
+				2F38B2C89636B3FB7207C90B3580DBDD /* MausamKit-prefix.pch */,
+				F4BDF64927F3D694DDED1C8A4891CA1F /* MausamKit-umbrella.h */,
+				B0A6B302AD94F5F75B92F0798F3B120D /* MausamKit.debug.xcconfig */,
+				B4F20E3D401BAF1B3F4FACFB795A3E64 /* MausamKit.release.xcconfig */,
 			);
-			name = Service;
-			path = MausamKit/Service;
+			name = "Support Files";
+			path = "../Target Support Files/MausamKit";
 			sourceTree = "<group>";
 		};
 		CECA4DC06DF1A157F777F0E177FDF239 /* Pods-MainApp */ = {
@@ -195,8 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7CD533EEF33E448AFBEA5341F2E71E51 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D9D8186BC86AA1B8E1014196274E2000 /* Pods */,
 				F51CCEF6AE7A767721CA774E2083853A /* Products */,
 				1BD13480BEEF33763EB65450D8AC2AB0 /* Targets Support Files */,
 			);
@@ -208,6 +163,14 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9D8186BC86AA1B8E1014196274E2000 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A58C56FCD45A3693C932BED1A3461231 /* MausamKit */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		F51CCEF6AE7A767721CA774E2083853A /* Products */ = {
@@ -230,16 +193,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87D3E8208F139DAD22A7E67405D664E2 /* Headers */ = {
+		33C61AA5C5A4143B9277025A2095543D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F07420C7C1C933A3B859F86C732E8775 /* MausamKit.h in Headers */,
-				6E6150B75BDE6EA5F8A92877CC2BFE59 /* MausamKit-umbrella.h in Headers */,
-				F61F2717C368B522C34DF20B5A5699BD /* WeatherData.h in Headers */,
-				A71D75446DE50045D962B482F8D5E9D9 /* WeatherDetail.h in Headers */,
-				684F2A84F9236F42B47C1E08F349D136 /* WeatherProtocol.h in Headers */,
-				2899976DF602C70DED0091DD4481ACE1 /* WeatherService.h in Headers */,
+				7BDC5637460F338BADA58B9133C50696 /* MausamKit.h in Headers */,
+				C47A660BC0C771AB29326BAF8B70A797 /* MausamKit-umbrella.h in Headers */,
+				E2BDDEB5673CD511FFF806DDA42ECC6F /* WeatherData.h in Headers */,
+				F42B223C002628265C10A8EF7785F47B /* WeatherDetail.h in Headers */,
+				1982CE4487D03B6A423F15A032214650 /* WeatherProtocol.h in Headers */,
+				438B66E0ED4FC078323C471B847F3246 /* WeatherService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +213,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 098843A6D6D09CACEF18AE6DD433FF95 /* Build configuration list for PBXNativeTarget "MausamKit" */;
 			buildPhases = (
-				87D3E8208F139DAD22A7E67405D664E2 /* Headers */,
-				65ADF857F744BC2CFEF105FB3D976A75 /* Sources */,
+				33C61AA5C5A4143B9277025A2095543D /* Headers */,
+				88EE9BEE12725AC4CA1E4FE17DBF8F94 /* Sources */,
 				0D7B9B9EE84FAEF9C1A2E4EFB9042FC9 /* Frameworks */,
 				B83E9BAE7BBF7591044C8526FD272B01 /* Resources */,
 			);
@@ -276,7 +239,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				96BACF6B180D1974A1D7365D43E5049D /* PBXTargetDependency */,
+				7AD14AE5319AEB9EA9F5BE49DBDED60D /* PBXTargetDependency */,
 			);
 			name = "Pods-MainApp";
 			productName = Pods_MainApp;
@@ -329,13 +292,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		65ADF857F744BC2CFEF105FB3D976A75 /* Sources */ = {
+		88EE9BEE12725AC4CA1E4FE17DBF8F94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D44BB31EC996970F3628870AF5C200A9 /* MausamKit-dummy.m in Sources */,
-				414D3BE1A4F5638B913AD859B6B52203 /* WeatherData.m in Sources */,
-				88DB8CA4A4B791C908B8F6A99DFE274E /* WeatherService.m in Sources */,
+				FB15E59866212401036C2891D489497B /* MausamKit-dummy.m in Sources */,
+				7570124473B5FDB64A6D61358CDA1B81 /* WeatherData.m in Sources */,
+				CBDA0F4840F67E26633ADE4787E51C8F /* WeatherService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,18 +313,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		96BACF6B180D1974A1D7365D43E5049D /* PBXTargetDependency */ = {
+		7AD14AE5319AEB9EA9F5BE49DBDED60D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MausamKit;
 			target = AA093FA13734C91EEE4110C234906C89 /* MausamKit */;
-			targetProxy = 089CF1A0165E824B397972155AD1D858 /* PBXContainerItemProxy */;
+			targetProxy = 2B27E0F4FCF8A1BFFD57FC63420B954D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0169D690A052FD4260CB7A706CF26958 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 392C4B85E76E4ABDAFD854A6CE35B0DA /* MausamKit.release.xcconfig */;
+			baseConfigurationReference = B4F20E3D401BAF1B3F4FACFB795A3E64 /* MausamKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -462,7 +425,7 @@
 		};
 		5A21E91F6549EBB846F451C80FA669C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9E9CAE050C28B4F14A59E4AD52CC071 /* MausamKit.debug.xcconfig */;
+			baseConfigurationReference = B0A6B302AD94F5F75B92F0798F3B120D /* MausamKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

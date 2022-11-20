@@ -10,6 +10,12 @@
 		DBD58124292A95A2008C1C9B /* MausamKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD5811A292A95A2008C1C9B /* MausamKit.framework */; };
 		DBD58129292A95A2008C1C9B /* MausamKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD58128292A95A2008C1C9B /* MausamKitTests.m */; };
 		DBD5812B292A95A2008C1C9B /* MausamKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD5811D292A95A2008C1C9B /* MausamKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBD58180292A99F0008C1C9B /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD58178292A99F0008C1C9B /* WeatherData.m */; };
+		DBD58181292A99F0008C1C9B /* WeatherData.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD58179292A99F0008C1C9B /* WeatherData.h */; };
+		DBD58182292A99F0008C1C9B /* WeatherService.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD5817B292A99F0008C1C9B /* WeatherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBD58183292A99F0008C1C9B /* WeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD5817C292A99F0008C1C9B /* WeatherService.m */; };
+		DBD58184292A99F0008C1C9B /* WeatherProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD5817E292A99F0008C1C9B /* WeatherProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBD58185292A99F0008C1C9B /* WeatherDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD5817F292A99F0008C1C9B /* WeatherDetail.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,12 @@
 		DBD58123292A95A2008C1C9B /* MausamKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MausamKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD58128292A95A2008C1C9B /* MausamKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MausamKitTests.m; sourceTree = "<group>"; };
 		DBD5812A292A95A2008C1C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD58178292A99F0008C1C9B /* WeatherData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherData.m; sourceTree = "<group>"; };
+		DBD58179292A99F0008C1C9B /* WeatherData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherData.h; sourceTree = "<group>"; };
+		DBD5817B292A99F0008C1C9B /* WeatherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherService.h; sourceTree = "<group>"; };
+		DBD5817C292A99F0008C1C9B /* WeatherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherService.m; sourceTree = "<group>"; };
+		DBD5817E292A99F0008C1C9B /* WeatherProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherProtocol.h; sourceTree = "<group>"; };
+		DBD5817F292A99F0008C1C9B /* WeatherDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDetail.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,9 @@
 		DBD5811C292A95A2008C1C9B /* MausamKit */ = {
 			isa = PBXGroup;
 			children = (
+				DBD58177292A99F0008C1C9B /* Model */,
+				DBD5817D292A99F0008C1C9B /* Protocol */,
+				DBD5817A292A99F0008C1C9B /* Service */,
 				DBD5811D292A95A2008C1C9B /* MausamKit.h */,
 				DBD5811E292A95A2008C1C9B /* Info.plist */,
 			);
@@ -86,6 +101,33 @@
 			path = MausamKitTests;
 			sourceTree = "<group>";
 		};
+		DBD58177292A99F0008C1C9B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBD58178292A99F0008C1C9B /* WeatherData.m */,
+				DBD58179292A99F0008C1C9B /* WeatherData.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBD5817A292A99F0008C1C9B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DBD5817B292A99F0008C1C9B /* WeatherService.h */,
+				DBD5817C292A99F0008C1C9B /* WeatherService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DBD5817D292A99F0008C1C9B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				DBD5817E292A99F0008C1C9B /* WeatherProtocol.h */,
+				DBD5817F292A99F0008C1C9B /* WeatherDetail.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +135,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD58185292A99F0008C1C9B /* WeatherDetail.h in Headers */,
 				DBD5812B292A95A2008C1C9B /* MausamKit.h in Headers */,
+				DBD58184292A99F0008C1C9B /* WeatherProtocol.h in Headers */,
+				DBD58182292A99F0008C1C9B /* WeatherService.h in Headers */,
+				DBD58181292A99F0008C1C9B /* WeatherData.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +239,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD58183292A99F0008C1C9B /* WeatherService.m in Sources */,
+				DBD58180292A99F0008C1C9B /* WeatherData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

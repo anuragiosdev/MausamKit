@@ -5,7 +5,7 @@ target 'MainApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'MausamKit', :path => '../Framework/'
+  pod 'MausamKit', :path => '../MausamKit/'
   # Pods for MainApp
 
 end
